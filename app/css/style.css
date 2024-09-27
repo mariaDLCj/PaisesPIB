@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#contenedor{
+    width: 100%;
+    height: 100vh;
+    background-color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+#h1Titulo{
+    padding-top: 20px;
+}
+#cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 80%;
+}
+#cont aside{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #000;
+    
+}
+#cont aside button{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 30px;
+}
+h2 {
+    border-bottom: 1px solid #111;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    margin: 0 0 20px;
+    width: 300px;
+
+}
+#DisplayPaises{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
